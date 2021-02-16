@@ -41,4 +41,3 @@ const Header: FunctionComponent<HeaderProps> = () => {
 }
 
 export default Header;
-
