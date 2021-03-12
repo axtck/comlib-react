@@ -6,7 +6,7 @@ const InputsForm = ({ title, fields, onInputValueChange }) => {
         return <div key={i} className="form-group mb-3">
             <label htmlFor={`${f.name}${i}`}>{f.label.charAt(0).toUpperCase() + f.label.slice(1)}</label>
             <input
-                placeholder={f.name.charAt(0).toUpperCase() + f.name.slice(1)}
+                placeholder={f.label.charAt(0).toUpperCase() + f.label.slice(1)}
                 id={`${f.name}${i}`}
                 name={f.name}
                 value={f.inputValue}
