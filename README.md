@@ -19,7 +19,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 * Use components
 ```javascript
-import Header from "./components/Header/header"; // import it
+import Header from "./components/header/Header"; // import it
 
 <Header title="React Component Library" /> {/*use it*/} 
 ```
