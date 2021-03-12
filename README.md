@@ -1,6 +1,6 @@
 # React component snippets
 
-***Some handy React snippets to reuse***
+***Some handy React js/ts components made with bootstrap***
 
 ---
 
@@ -15,4 +15,11 @@ npm install bootstrap
 * Import bootstrap (index.js / index.tsx)
 ```javascript
 import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+* Use components
+```javascript
+import Header from "./components/Header/header"; // import it
+
+<Header title="React Component Library" /> {/*use it*/} 
 ```
