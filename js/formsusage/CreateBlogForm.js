@@ -15,18 +15,22 @@ const CreateBlogForm = () => {
     const fields = [
         {
             name: "name", // this will be the inputs name value
+            label: "name",
             inputValue: inputValues.name, // since we are using e.target.name as key
         },
         {
             name: "title",
+            label: "title",
             inputValue: inputValues.title,
         },
         {
             name: "subject",
+            label: "subject",
             inputValue: inputValues.subject,
         },
         {
             name: "tags",
+            label: "label for tags",
             inputValue: inputValues.tags,
         },
     ];

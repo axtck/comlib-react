@@ -4,7 +4,7 @@ const InputsForm = ({ title, fields, onInputValueChange }) => {
 
     const mappedFields = fields.map((f, i) => {
         return <div key={i} className="form-group mb-3">
-            <label htmlFor={`${f.name}${i}`}>{f.name.charAt(0).toUpperCase() + f.name.slice(1)}</label>
+            <label htmlFor={`${f.name}${i}`}>{f.label.charAt(0).toUpperCase() + f.label.slice(1)}</label>
             <input
                 placeholder={f.name.charAt(0).toUpperCase() + f.name.slice(1)}
                 id={`${f.name}${i}`}
