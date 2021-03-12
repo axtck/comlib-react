@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import InputsForm from '../forms/InputsForm';
 
-const CreateBlogForm = () => {
+const FormsUsage = () => {
     const initialValues = {
         name: "",
         title: "",
@@ -61,4 +61,4 @@ const CreateBlogForm = () => {
     );
 }
 
-export default CreateBlogForm;
+export default FormsUsage;
